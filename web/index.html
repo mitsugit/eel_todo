@@ -7,14 +7,24 @@
 </head>
 <body>
     <h1 id="myele">EEL APP Launch</h1>
-    <input type="text" id="taskinp">
-    <button id="mybtn">Add task</button>
-    <button id="sendbtn">Remove task</button>
+    <label>予算</label>
+    <input type="number" id="budget" value="2000" step="100" min="0">
+    <label>オッズ</label>
+    <input type="number" id="taskinp">
+    <button id="mybtn">追加</button>
+    <button id="resetbtn">reset</button>
 
     <div id="tasks">
         <p>No tasks yet</p>
     </div>
 
+    <div id="betlist">
+        <p>No betlist yet</p>
+    </div>
+
+    <button id="getbtn">get_item</button>
+    <label>合成オッズ</label>
+    <input id="gousei_odds"></input>
 </body>
 
 <script type="text/javascript" src="/eel.js"></script>
